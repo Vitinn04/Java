@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Comparar {
 
 	public static void main(String[] args) {
-		double n1, n2;
+		 double n1, n2;
 		 Scanner leia = new Scanner(System.in); 
 		 
 		 System.out.println("Digite o primeiro numero");
