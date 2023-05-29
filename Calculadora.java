@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Calc {
+public class Calculadora {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
@@ -18,19 +18,19 @@ public class Calc {
 				System.out.println("Digite o primeiro numero: ");
 				n1 = leia.nextDouble();
 				
-				System.out.println("Digite a operação (*,/,+,-): ");
+				System.out.println("Digite a operaÃ§Ã£o (*,/,+,-): ");
 				operacao = leia.next();
 				
-				System.out.println("Digite o segundo número: ");
+				System.out.println("Digite o segundo nÃºmero: ");
 				n2 = leia.nextDouble();
 				
-				System.out.println("O resultado é: " + realizarCalculo(n1, n2, operacao));
+				System.out.println("O resultado Ã©: " + realizarCalculo(n1, n2, operacao));
 				
 				continuar = verificarNovaOperacao();
 			} while (continuar);
 			
 		} catch (InputMismatchException ex) {
-			System.out.println("Os valores para calculo devem ser númericos");
+			System.out.println("Os valores para calculo devem ser nÃºmericos");
 		}
 		
 			
@@ -39,7 +39,7 @@ public class Calc {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Deseja realizar outra operação? (S/N): " );
+		System.out.println("Deseja realizar outra operaÃ§Ã£o? (S/N): " );
 		return !sc.nextLine().toUpperCase(Locale.ROOT).equals("N"); 
 		
 	}
@@ -62,7 +62,7 @@ public class Calc {
 				respostaCalculo = n1 - n2;
 				break;
 		
-		default: System.out.println("Esse sinal não é valido");
+		default: System.out.println("Esse sinal nÃ£o Ã© valido");
 				break;
 		}
 	return respostaCalculo;
