@@ -7,11 +7,10 @@ public class TesteMesaWhile {
 		int i = 3;
 		while (i < 7) {
 			n = n + i;
-			System.out.println(n);
 			i++;
 			
 		}
-				
+		System.out.println(n);		
 	}
 
 }
