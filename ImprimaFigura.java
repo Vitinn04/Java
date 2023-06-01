@@ -17,7 +17,6 @@ public class ImprimaFigura {
 			texto += "*";
 			System.out.println(texto);
 		}
-
 	}
 
 }
