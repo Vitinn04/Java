@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class InteirosE0For {
 
     public static void main(String[] args) {
-        int num;
     	
     	Scanner leia = new Scanner(System.in);
     	int valor;
@@ -16,6 +15,6 @@ public class InteirosE0For {
         	System.out.println("Digite um numero: ");
         	valor = leia.nextInt();
 		}
-         System.out.println("O numero é zero");
+         System.out.println("O numero Ã© zero");
     }
 }
